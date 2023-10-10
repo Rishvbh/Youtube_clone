@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+
+        <link rel="stylesheet" href="video.css" >
+        <link rel="stylesheet" href="header.css" >
+        <link rel="stylesheet" href="general.css" >
+        <link rel="stylesheet" href="sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="/icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar"  type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="/icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="/icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>              
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="/icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="yt-apps-icon-container">
+                    <img class="yt-apps-icon" src="/icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube Apps</div>
+                </div>
+                <div class="notification-icon-container">
+                    <img class="notification-icon" src="/icons/notifications.svg">
+                    <div class="notification-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="channel-icon" src="/pfp/picture.jpg">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="/icons/home-sidebar.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/icons/explore-sidebar.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/icons/subscriptions-sidebar.svg">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/icons/originals-sidebar.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/icons/youtube-music-sidebar.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/icons/library-sidebar.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+                        </a>
+                        <div class="video-time">14:20</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                                <img class="profile-picture" src="/pfp/1.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Marques Brownlee
+                            </p>
+                    
+                            <p class="video-stats">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=Ao7X7BS_vIs&t=6s" target="_blank" class="video-title-link" >
+                            <img class="thumbnail" src="./html-css course/thumbnails/thumbnail-2.webp">
+                        </a>
+                        <div class="video-time">8:12</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@Formula1" target="_blank">
+                                <img class="profile-picture" src="/pfp/2.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=Ao7X7BS_vIs&t=6s" target="_blank" class="video-title-link" >
+                                <p class="video-title">
+                                    Race Highlights | 2023 Dutch Grand Prix
+                                </p>
+                            </a>                    
+                            <p class="video-author">
+                                FORMULA 1
+                            </p>
+                    
+                            <p class="video-stats">
+                                3.9M views &#183; 2 weeks ago
+                            </p>
+                        </div>
+                    </div>     
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=N1j2ya9lCWs" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-3.webp">
+                        </a>
+                        <div class="video-time">10:36</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@ChessBaseIndiachannel" target="_blank">
+                                <img class="profile-picture" src="/pfp/3.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=N1j2ya9lCWs" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Yuzvendra Chahal vs Samay Raina | An intense friendly game at Global Chess League 
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                ChessBase India
+                            </p>
+                    
+                            <p class="video-stats">
+                                880K views &#183; 2 months ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-4.webp">
+                        </a>
+                        <div class="video-time">3:39</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q" target="_blank">
+                                <img class="profile-picture" src="/pfp/4.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    In The End [Official HD Music Video] - Linkin Park
+                                </p>   
+                            </a>                
+                            <p class="video-author">
+                                Linkin Park
+                            </p>
+                    
+                            <p class="video-stats">
+                                1.6B views &#183; 13 years ago
+                            </p>
+                        </div>
+                    </div>     
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=A_MjCqQoLLA" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-5.webp">
+                        </a>
+                        <div class="video-time">8:10</div>
+                    </div>                
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww" target="_balnk">
+                                <img class="profile-picture" src="/pfp/5.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=A_MjCqQoLLA" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    The Beatles - Hey Jude
+                                </p>                       
+                            </a>
+                            <p class="video-author">
+                                The Beatles
+                            </p>
+                    
+                            <p class="video-stats">
+                                366M views &#183; 7 years ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=X791IzOwt3Q" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-6.webp">
+                        </a>                        
+                        <div class="video-time">8:06</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/channel/UCaKZA66vM_TUpetUNohmR0A" target="_blank">
+                                <img class="profile-picture" src="/pfp/6.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=X791IzOwt3Q" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Stairway to Heaven (Remaster)
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Led Zeppelin
+                            </p>
+                    
+                            <p class="video-stats">
+                                41M views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>     
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=SF4vL8RN0Kg" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-7.webp">
+                        </a>
+                        <div class="video-time">2:07</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@EastIndiaComedy" target="_blank">
+                                <img class="profile-picture" src="/pfp/7.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=SF4vL8RN0Kg" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    EIC: The Donald Trump Song
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                East India Comedy
+                            </p>
+                    
+                            <p class="video-stats">
+                                4.2M views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=KbnP3yVAPAk" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-8.webp">
+                        </a>
+                        <div class="video-time">17:37</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@PPPeter_Official" target="_blank">
+                                <img class="profile-picture" src="/pfp/8.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=KbnP3yVAPAk" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Spinning a Wheel of Fortune and Traveling Where it Lands
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                PPPeter
+                            </p>
+                    
+                            <p class="video-stats">
+                                178K views &#183; 3 months ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=A7vcLYIxJvk" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-9.webp">
+                        </a>
+                        <div class="video-time">5:40</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@drewbinsky" target="_blank">
+                                <img class="profile-picture" src="/pfp/9.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=A7vcLYIxJvk" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    She Escaped North Korea to Live in South Korea
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Drew Binksy
+                            </p>
+                    
+                            <p class="video-stats">
+                                4.1M views &#183; 4 years ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=UQZ8QfUhZOQ" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-10.webp">
+                        </a>
+                        <div class="video-time">8:42:06</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@SamayRainaOfficial" target="_blank">
+                                <img class="profile-picture" src="/pfp/10.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=UQZ8QfUhZOQ" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    COB 5 | ALL IN | PRESENTED BY POKERSTARS | DAY 1
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Samay Raina
+                            </p>
+                    
+                            <p class="video-stats">
+                                1M views &#183; 2 years ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=OcXHdg01_Kg" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-11.webp">
+                        </a>
+                        <div class="video-time">2:16:01</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@vedantrusty" target="_blank">
+                                <img class="profile-picture" src="/pfp/11.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=OcXHdg01_Kg" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Raw & Real #7 | France, Kanye West, Career Success, Personal Branding
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Vedant Rusty
+                            </p>
+                    
+                            <p class="video-stats">
+                                152K views &#183; 2 years ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=1TCnTKEZmyQ" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="/thumbnails/thumbnail-12.webp">
+                        </a>
+                        <div class="video-time">2:32:42</div>
+                    </div>              
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@AbhijitChavda" target="_blank">
+                                <img class="profile-picture" src="/pfp/12.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=1TCnTKEZmyQ" target="_blank" class="video-title-link">
+                                <p class="video-title">
+                                    Abhijit Iyer-Mitra on Biden Regime, Russia-Ukraine, Chinese Expansionism & India's Future | ACP 27
+                                </p>
+                            </a>                   
+                            <p class="video-author">
+                                Abhijit Chavda
+                            </p>
+                    
+                            <p class="video-stats">
+                                643K views &#183; 2 months ago
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+            
+           </section>
+        </main>
+    </body>
